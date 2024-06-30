@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); 
+
+.navbar {
+    background-color: #44001a !important;
+
+    padding-left: 2%; 
+    padding-right: 2%; 
+
+    @media (min-width: 768px) {
+        padding-left: 4%; 
+        padding-right: 4%;
+    }
+
+    @media (min-width: 992px) { 
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    @media (min-width: 1200px) { 
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .navbar-brand {
+        display: flex;
+        align-items: center; 
+
+        img {
+            height: 50px; 
+            width: auto; 
+        }
+
+        &:after {
+            content: "Brainiacs";
+            font-family: 'Architects Daughter', cursive;
+            font-weight: 400;
+            font-size: 24px; 
+            color: white; 
+            margin-left: 10px; 
+        }
+    }
+}
